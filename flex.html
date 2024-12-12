@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+
+        <link rel="stylesheet" href="./reset.css" />
+        <style>
+            #container {
+                display: flex;
+                width: 100%;
+                height: 100vh;
+            }
+
+            #container div {
+                display: flex;
+                width: 100%;
+                align-items: center;
+                justify-content: center;
+                font-size: 30px;
+                color: white;
+                font-weight: bold;
+                transition: all 1s;
+                flex: 1;
+            }
+
+            #container div:hover {
+                flex: 4;
+            }
+
+            .red {
+                background-color: red;
+            }
+            .yellow {
+                background-color: yellow;
+            }
+            .blue {
+                background-color: blue;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <div class="red">1</div>
+            <div class="yellow">2</div>
+            <div class="blue">3</div>
+        </div>
+    </body>
+</html>

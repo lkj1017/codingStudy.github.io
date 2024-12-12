@@ -1,0 +1,43 @@
+
+/*===== footer =====*/
+.footer {
+    width: 100%;
+    background-color: #ddd;
+    height: 300px;
+    box-sizing: border-box;
+    padding: 40px;
+    display: flex;
+}
+
+.footer div{
+    width: 50%;
+}
+
+
+.footer__logo{
+    font-size : 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.footer__info-area {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.footer_info-text{
+    margin-bottom:10px
+}
+
+
+.footer__sns-area{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+
+.footer__sns-area span{
+    margin-left : 10px
+}

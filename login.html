@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./pages/login.css" />
+    <script src="https://kit.fontawesome.com/5f5858b603.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <header>
+        <div class="header__top">
+            <ul class="header__left-menu w33p">
+                <li>BRAND</li>
+                <li>EVENT</li>
+                <li>LOOKBOOK</li>
+                <li>COMMUNITY</li>
+            </ul>
+
+            <h1 class="header__title w33p">LOGO</h1>
+
+            <ul class="header__right-menu w33p">
+                <li><i class="fa-solid fa-magnifying-glass"></i></li>
+                <li class="relative">
+                    <i class="fa-solid fa-user"></i><span class="point-label">+2,000P</span>
+                </li>
+                <li class="relative">
+                    <i class="fa-solid fa-cart-shopping"></i><span class="count">0</span>
+                </li>
+                <li><i class="fa-solid fa-bars"></i></li>
+            </ul>
+        </div>
+        <!-- header__top -->
+
+        <div class="header__gnb">
+            <ul>
+                <li>BEST</li>
+                <li>NEW5%</li>
+                <li>1+1</li>
+                <li>OUTER</li>
+                <li>TOP</li>
+                <li>SHIRTS</li>
+                <li>DRESS</li>
+                <li>PANTS</li>
+                <li>ACC</li>
+            </ul>
+        </div>
+    </header>
+
+
+
+    <!-- 로그인 화면 -->
+    <div class="login-wrapper">
+        <h2>로그인</h2>
+        <span class="login_text"></span>
+        <span class="login_text"></span>
+        <button type="button" class="login_btn login_btn-kakao">카카오 1초 로구인</button>
+
+        <form class="login_form">
+            <!-- 아이디 -->
+            <label for="login_id" class="login_label login_text">
+                <span class="login_text">아이디</span>
+                <input type="text" name="" id="login_id" class="login_input">
+            </label>
+
+            <!-- 비밀번호 -->
+            <label for="pwd" class="login_label login_text">
+                <span class="login_password">비밀번호</span>
+                <input type="password" name="" id="login_password" class="login_input">
+            </label>
+
+            <div class="login_text-box">
+                <a href="#" class="login_text">회원가입</a>
+                <a href="#" class="login_text">아이디 / 비밀번호 찾기</a>
+            </div>
+
+            <button type="submit" class="login_btn">로그인</button>
+
+        </form>
+
+        
+        <button type="button" class="login_btn login_btn-naver">네이버</button>
+    </div>
+
+
+
+
+
+    
+    <footer class="footer">
+        <div class="footer__info-area">
+            <span class="footer__logo">MY SHPOP</span>
+            <small class="footer_info-text">업무시간 : 09:30 ~ 18:00</small>
+            <small class="footer_info-text">사업자번호 : 114-87-03025</small>
+            <small class="footer_info-text">&copy; DREAMINSIGHT. All rights reserved.</small>
+        </div>
+        <div class="footer__sns-area">
+            <span><i class="fa-brands fa-twitter fa-2x"></i></span>
+            <span><i class="fa-brands fa-facebook fa-2x"></i></span>
+            <span><i class="fa-brands fa-youtube fa-2x"></i></span>
+        </div>
+    </footer>
+
+</body>
+</html>

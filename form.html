@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <style>
+            .container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            #login_title {
+                font-size: 30px;
+                font-weight: bold;
+                margin-bottom: 30px;
+            }
+
+            .test1 {
+                color: purple;
+            }
+
+            #test2 {
+                color: blue;
+            }
+
+            form > span {
+                color: red;
+            }
+
+            input[type="email"] ~ input {
+                background-color: yellow;
+            }
+
+            form span:first-child {
+                font-weight: bold;
+                color: orange;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <span id="login_title">로그인</span>
+            <form action="">
+                <span class="test1" id="test2">이메일</span>
+                <input type="email" name="" id="" />
+                <span>비밀번호</span>
+                <input type="password" name="" id="" />
+                <input type="submit" value="제출하기" />
+            </form>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,117 @@
+/*main best product list*/
+
+.main__best {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.main__best h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.main__best-product-list {
+    width:1450px;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.main__best-product-list > article {
+    width: 330px;
+    overflow: hidden;
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+
+.main__best-product-list > article:hover{
+    cursor: pointer;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+}
+
+.main__best-product-list > article:last-child {
+    margin-right: 0;
+}
+
+.main__best-product-list > article > .main__best-img-box {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+
+.main__best-product-list > article > .main__best-img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.2s ease-in-out;
+}
+
+.main__best-product-list > article img:hover{
+    transform: scale(1.1);
+}
+
+
+.main__best-product-list > article > h3 {
+    font-size : 18px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+
+.main__best-color-chip {
+    display: flex;
+    margin-top: 10px;
+}
+
+
+.main__best-color-chip > article {
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    margin-right: 8px;
+    margin-bottom: 14px;
+}
+
+
+.main__best-color-chip-01 {
+    background-color: #3C1A12;
+}
+
+.main__best-color-chip-02 {
+    background-color: #5C4F3B
+}
+
+.main__best-color-chip-03 {
+    background-color: #333333
+}
+
+.main__best-color-chip-04 {
+    background-color: #fdfdfd;
+    outline : 1px solid #999;
+}
+
+.main__best-price-container span{
+    margin-right: 8px;
+}
+
+.main__best-price-container span:first-child {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+.main__best-price-container span:nth-child(2){
+    color: #777;
+    text-decoration: line-through;
+}
+
+
+.main__best-price-container span:last-child{
+    color: red;
+    font-weight: bold;
+}
+

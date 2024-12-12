@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <style>
+            @keyframes lkj {
+                0% {
+                    transform: translateX(0);
+                    opacity: 1;
+                }
+                50% {
+                    transform: translateX(100px);
+                    opacity: 0;
+                }
+                100% {
+                    transform: translateX(0px);
+                    opacity: 1;
+                }
+            }
+
+            body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+            }
+            .container {
+                width: 100px;
+                height: 100px;
+                background: red;
+                transition: 2s ease-in-out;
+                animation: lkj 3s ease-in-out infinite;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container"></div>
+    </body>
+</html>
